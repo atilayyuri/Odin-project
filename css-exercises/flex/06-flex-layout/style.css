@@ -58,3 +58,8 @@ input {
 li {
   padding: 8px
 }
+
+a {
+  color: #666;
+  text-decoration: none;
+}
