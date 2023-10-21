@@ -1,0 +1,101 @@
+body {
+    height: 100vh;
+    color:gray;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    
+  }
+.header, .introduction, .content, .albums, .quote, .footer-signup{
+    width: 80vw;
+    margin:0px auto;
+}
+.header {
+    height: 5vh;
+    font-size: 16px;
+    /*font-weight: 32;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #1F2937;
+}
+.introduction{
+    height: 20.0vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.content{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.albums{
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.album {
+    width: 250px;
+    display:flex;
+    justify-content: center;
+}
+.quote{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-signup{
+    width: 60vw;
+    height: 15vh;
+    background-color: #3882F6; 
+    margin: 16px auto;
+}
+.footer-signup2 {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.footer-signup-left{
+    margin-left: 10vw;
+}
+button{
+    margin-right: 10vw;
+}
+.footer{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+.header-logo{
+    font-size: 24px;
+    font-weight: 16;
+}
+.top-right-links{
+    display:flex
+}
+
+li {
+    padding:8px
+}
+ul {
+list-style: none;
+
+ }
+
+ a {
+    text-decoration: none;
+  }
