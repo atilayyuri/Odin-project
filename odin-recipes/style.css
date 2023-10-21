@@ -1,0 +1,23 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+
+h1 {
+    font-family:  'Times New Roman', Times, serif;
+}
+p1 {
+    margin-bottom: 16px;
+}
+
+img {
+    margin: 16px 0px;
+}
+
+h4 {
+    margin: 8px 0px;
+}
+
+ul {
+    padding-left: 16px;
+}
